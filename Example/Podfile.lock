@@ -1,0 +1,16 @@
+PODS:
+  - LVHybrid (0.1.0)
+
+DEPENDENCIES:
+  - LVHybrid (from `../`)
+
+EXTERNAL SOURCES:
+  LVHybrid:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LVHybrid: b623850a1f05dbca594a78872579258176621ddc
+
+PODFILE CHECKSUM: 4f28dea547bc427babefe53828dd2e22425fcbf0
+
+COCOAPODS: 1.10.0
