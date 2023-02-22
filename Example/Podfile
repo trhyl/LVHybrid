@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LVHybrid_Example' do
+  pod 'LVHybrid', :path => '../'
+
+  target 'LVHybrid_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
