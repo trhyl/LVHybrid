@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LVHybrid/Classes/**/*'
   
+  s.dependency 'LVExtension'
+  
   # s.resource_bundles = {
   #   'LVHybrid' => ['LVHybrid/Assets/*.png']
   # }
