@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LVHybrid'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LVHybrid.'
+  s.summary          = '灵活扩展的H5容器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/newhl/LVHybrid'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/trhyl/LVHybrid.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'newhl' => '954777574@qq.com' }
-  s.source           = { :git => 'https://github.com/newhl/LVHybrid.git', :tag => s.version.to_s }
+  s.author           = { 'newhl' => 'lhy011@foxmail.com' }
+  s.source           = { :git => 'https://github.com/trhyl/LVHybrid.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
