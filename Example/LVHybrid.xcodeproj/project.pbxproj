@@ -324,10 +324,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LVHybrid_Example/Pods-LVHybrid_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LVExtension/LVExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/LVHybrid/LVHybrid.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LVExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LVHybrid.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
